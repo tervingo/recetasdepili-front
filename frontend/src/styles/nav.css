@@ -1,1 +1,52 @@
-﻿
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f5e6dc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left  { display: flex; align-items: center; gap: 1rem; }
+.nav-right { margin-left: auto; display: flex; align-items: center; gap: 0.25rem; }
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-logo { height: 44px; width: auto; }
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover { background-color: rgba(114, 47, 55, 0.08); }
+
+.navbar-cita-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+
+.navbar-cita             { color: #9b6b5a; font-size: 1rem;  font-style: italic; margin-bottom: 4px; }
+.navbar-cita-explicacion { color: #9b6b5a; font-size: 0.8rem; font-style: italic; }
+
+.nav-user { margin: 0 1rem; color: var(--primary-color); }
+
+button.nav-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}

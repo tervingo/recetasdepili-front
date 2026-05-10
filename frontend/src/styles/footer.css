@@ -1,1 +1,24 @@
-﻿
+.footer {
+  background-color: #f5e6dc;
+  padding: 1rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-content-item { font-size: 1rem; margin-right: 3rem; color: var(--primary-color); }
+
+.mail-link {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.mail-link:hover { color: var(--secondary-color); }

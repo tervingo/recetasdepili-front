@@ -1,1 +1,34 @@
-﻿
+.admin-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 { color: var(--primary-color); margin-bottom: 2rem; }
+
+.create-user-form {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  background-color: #faf0ec;
+  border-radius: 6px;
+}
+
+.create-user-form h3 { margin-bottom: 1.5rem; color: var(--primary-color); }
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.users-table th,
+.users-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.users-table th { background-color: #faf0ec; font-weight: 600; }

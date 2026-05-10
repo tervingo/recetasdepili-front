@@ -10,6 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-left">
         <Link to="/" className="nav-brand">
+          <img src="/logo.svg" alt="Logo" className="nav-logo" />
           <span>Recetas de Pili</span>
         </Link>
       </div>
