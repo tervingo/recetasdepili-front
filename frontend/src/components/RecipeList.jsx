@@ -113,7 +113,7 @@ const RecipeList = () => {
 
   return (
     <div className="recipe-list" ref={containerRef}>
-      <h2 className="recipe-list-title">Recetas de Pili</h2>
+      <h2 className="recipe-list-title">Las Recetas de Pili</h2>
       {CATEGORIES_ORDER.map((categoryGroup, index) => {
         const categoryRecipes = getRecipesByCategories(categoryGroup);
         if (categoryRecipes.length === 0) return null;

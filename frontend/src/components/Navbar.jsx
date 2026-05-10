@@ -11,12 +11,12 @@ const Navbar = () => {
       <div className="nav-left">
         <Link to="/" className="nav-brand">
           <img src="/logo.svg" alt="Logo" className="nav-logo" />
-          <span>Recetas de Pili</span>
+          <span>Las Recetas de Pili</span>
         </Link>
       </div>
       <div className="navbar-cita-container">
         <div className="navbar-cita">"La cocina de Pili"</div>
-        <div className="navbar-cita-explicacion">Recetas caseras con mucho cariño</div>
+        <div className="navbar-cita-explicacion">Recetas caseras</div>
       </div>
       <div className="nav-right">
         {isAuthenticated && (
